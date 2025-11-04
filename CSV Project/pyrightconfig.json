@@ -1,0 +1,19 @@
+{
+    "include": [
+        "src",
+        "demo.py"
+    ],
+    "exclude": [
+        ".venv",
+        "**/__pycache__"
+    ],
+    "reportMissingImports": "warning",
+    "reportMissingTypeStubs": false,
+    "pythonVersion": "3.14",
+    "pythonPlatform": "Windows",
+    "extraPaths": [
+        "./src"
+    ],
+    "typeCheckingMode": "basic",
+    "useLibraryCodeForTypes": true
+}

@@ -1,0 +1,17 @@
+customer_id,first_name,last_name,email,phone,registration_date,last_purchase_date,total_spent,customer_segment,city,state,country
+1001,John,Smith,john.smith@email.com,555-123-4567,2023-01-15,2024-03-20,1250.50,Premium,New York,NY,USA
+1002,Sarah,Johnson,sarah.j@email.com,555-234-5678,2023-02-20,2024-02-15,750.25,Standard,Los Angeles,CA,USA
+1003,Michael,Brown,m.brown@email.com,555-345-6789,2023-03-10,,450.00,Standard,Chicago,IL,USA
+1004,Emily,Davis,emily.davis@email.com,555-456-7890,2023-04-05,2024-04-01,2100.75,Premium,Houston,TX,USA
+1005,David,Wilson,d.wilson@email.com,,2023-05-12,2024-01-30,320.00,Basic,Phoenix,AZ,USA
+1006,Lisa,Miller,lisa.miller@email.com,555-567-8901,2023-06-08,2024-03-15,890.50,Standard,Philadelphia,PA,USA
+1007,Robert,Garcia,r.garcia@email.com,555-678-9012,2023-07-20,2024-02-28,1550.25,Premium,San Antonio,TX,USA
+1008,Jennifer,Martinez,j.martinez@email.com,555-789-0123,2023-08-15,,275.00,Basic,San Diego,CA,USA
+1009,William,Anderson,w.anderson@email.com,555-890-1234,2023-09-03,2024-04-10,680.75,Standard,Dallas,TX,USA
+1010,Jessica,Taylor,jessica.t@email.com,555-901-2345,2023-10-12,2024-03-25,1125.00,Premium,San Jose,CA,USA
+1011,Christopher,Thomas,c.thomas@email.com,,2023-11-05,2024-01-20,425.50,Standard,Austin,TX,USA
+1012,Amanda,Jackson,amanda.j@email.com,555-012-3456,2023-12-18,2024-04-05,950.25,Standard,Jacksonville,FL,USA
+1013,Matthew,White,m.white@email.com,555-123-4567,2024-01-22,,180.00,Basic,Fort Worth,TX,USA
+1014,Ashley,Harris,ashley.h@email.com,555-234-5678,2024-02-14,2024-03-30,1780.50,Premium,Columbus,OH,USA
+1015,Daniel,Martin,d.martin@email.com,555-345-6789,2024-03-08,2024-04-12,625.75,Standard,Charlotte,NC,USA
+1002,Sarah,Johnson,sarah.johnson@email.com,555-234-5678,2023-02-20,2024-02-15,750.25,Standard,Los Angeles,CA,USA

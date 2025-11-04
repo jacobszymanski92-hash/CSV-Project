@@ -1,0 +1,49 @@
+{
+  "log_level": "INFO",
+  "log_dir": "logs",
+  "log_format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+  
+  "extraction": {
+    "csv_file": "data/sample_customers.csv",
+    "delimiter": ",",
+    "parse_dates": ["registration_date", "last_purchase_date"],
+    "na_values": ["", "NULL", "null", "N/A", "n/a", "#N/A"],
+    "dtype": {
+      "customer_id": "int64",
+      "first_name": "string",
+      "last_name": "string",
+      "email": "string",
+      "phone": "string",
+      "customer_segment": "string",
+      "city": "string",
+      "state": "string",
+      "country": "string"
+    }
+  },
+  
+  "transformation": {
+    "missing_value_strategy": {
+      "phone": "Unknown",
+      "last_purchase_date": "drop",
+      "email": "drop"
+    },
+    "text_columns": ["first_name", "last_name", "city", "state", "country"],
+    "type_mapping": {
+      "customer_id": "int64",
+      "registration_date": "datetime",
+      "last_purchase_date": "datetime",
+      "total_spent": "float64",
+      "customer_segment": "category"
+    }
+  },
+  
+  "loading": {
+    "project_id": "your-gcp-project-id",
+    "dataset_id": "customer_data",
+    "table_id": "customers",
+    "credentials_path": null,
+    "write_disposition": "WRITE_TRUNCATE",
+    "create_table": true,
+    "location": "US"
+  }
+}
